@@ -6,9 +6,9 @@ from email.mime.application import MIMEApplication
 from time import sleep
 
 sleep(10)
-fromaddr = "kostilio_9191@mail.ru"
-toaddr = "testgb113@mail.ru"
-mypass = "MSrkNUznPfNswajXhazB"
+fromaddr = "адрес куда отправить"
+toaddr = "адрес кому отправить"
+mypass = "В этом месте указан пароль для внешний приложений"
 log = "log.txt"
 report_api = "report_api.html"
 report_gui = "report_gui.html"
