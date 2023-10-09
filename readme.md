@@ -23,4 +23,4 @@
 3. выбрать в файле testdata.yaml нужный браузер (Chrome или Firefox)
 4. в модуле send_to_mail указать с какого адреса и куда отправить файлы по завершении тестирования (код mail.ru можно найти в разделе: настройки -> пароль и безопасность -> внешние сервисы (разрешить для использования SMTP) и в паролях для внешних приложений есть код)
 5. Для запуска всех тестов и отправки отчётов на email используйте pipeline в командной строке
-### pytest .\test_api.py --html-report=report_api.html | pytest .\test_gui.py --html-report=report_gui.html | python .\send_to_mail.py
+  pytest .\test_api.py --html-report=report_api.html | pytest .\test_gui.py --html-report=report_gui.html | python .\send_to_mail.py
