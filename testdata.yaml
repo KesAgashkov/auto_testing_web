@@ -1,0 +1,33 @@
+#GUI data
+
+address: https://test-stand.gb.ru
+browser: Chrome
+sleep_time: 1
+
+login: Blabla
+pswd: "d922c29b42"
+
+title: WebDriver
+description: Selenium WebDriver
+content: Think of a WebDriver as a mediator, something that allows two things to interact.
+
+u_name: Kostya
+u_email: Kostya@mail.ru
+content_contact: One of them has interesting and useful things to say.
+
+#API data
+
+login_adm: New
+pswd_adm: 03c2e7e41f
+
+url_api_login: https://test-stand.gb.ru/gateway/login
+url_api_posts: https://test-stand.gb.ru/api/posts
+
+old_title_api: WebDriver
+
+title_api: New_check
+description_api: Selenium WebDriver
+content_api: Think of a WebDriver as a mediator, something that allows two things to interact.
+
+
+
