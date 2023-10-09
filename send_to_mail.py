@@ -16,7 +16,7 @@ report_gui = "report_gui.html"
 msg = MIMEMultipart()
 msg['From'] = fromaddr
 msg['To'] = toaddr
-msg['Subject'] = "Привет от Костяна"
+msg['Subject'] = "Логи и отчёты о тестировании"
 text = "Hello"
 
 msg.attach(MIMEText(text))
